@@ -6,9 +6,9 @@ kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3
 kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.1.1/cluster-configuration.yaml
 ```{{execute}}
 
-2.verify kubesphere installation with `kubectl get pods -n kubesphere-system`{{execute}}
+2.Verify kubesphere installation with `kubectl get pods -n kubesphere-system`{{execute}}
 
-3.inspect the installation logs.
+3.Inspect the installation logs.
 
 ```
 kubectl logs -n kubesphere-system $(kubectl get pod -n kubesphere-system -l app=ks-install -o jsonpath='{.items[0].metadata.name}') -f

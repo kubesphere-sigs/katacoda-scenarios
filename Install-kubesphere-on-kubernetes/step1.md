@@ -21,7 +21,7 @@ controlplane $ kubectl get sc
 No resources found in default namespace.
 ```
 
-4.install openebs storage Class in the cluster  
+4.Install openebs storage Class in the cluster  
 ```
 kubectl create namespace openebs
 helm repo add openebs https://openebs.github.io/charts
@@ -29,7 +29,7 @@ helm repo update
 helm install openebs --namespace openebs openebs/openebs --wait 
 ```{{execute}}
 
-5.set  openebs as  a default storage Class for the cluster
+5.Set  openebs as  a default storage Class for the cluster
 `kubectl patch storageclasses.storage.k8s.io openebs-hostpath -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'`{{execute}}
 
 6.Check if there is a default Storage Class in your cluster.`kubectl get sc`{{execute}} 

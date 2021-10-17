@@ -1,16 +1,16 @@
 {
-  "title": "using KubeSphere DevOps ",
+  "title": "Using KubeSphere DevOps ",
   "description": "Using KubeSphere DevOps to automate the deployment of your applications",
   "difficulty": "beginner",
   "time": "60",
   "details": {
     "steps": [
       {
-        "title": "Step-1 verify Prerequisites",
+        "title": "Install KubeSphere DevOps",
         "text": "step1.md"
       },
       {
-        "title": "Step-2 Deploy KubeSphere",
+        "title": "Install CLI ks",
         "text": "step2.md"
       }
     ],

@@ -8,10 +8,6 @@
       {
         "title": "Install KubeSphere DevOps",
         "text": "step1.md"
-      },
-      {
-        "title": "Install CLI ks",
-        "text": "step2.md"
       }
     ],
     "intro": {

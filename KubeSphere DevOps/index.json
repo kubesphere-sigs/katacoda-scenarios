@@ -1,0 +1,38 @@
+{
+  "title": "using KubeSphere DevOps ",
+  "description": "Using KubeSphere DevOps to automate the deployment of your applications",
+  "difficulty": "beginner",
+  "time": "60",
+  "details": {
+    "steps": [
+      {
+        "title": "Step-1 verify Prerequisites",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step-2 Deploy KubeSphere",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "assets/foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+      "assets": {
+        "host01": [
+            {"file": "launch.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+        ]
+    }
+  },
+   "environment": {
+      "showdashboard": true,
+      "dashboards": [{"name": "KubeSphere", "href": "https://[[HOST2_SUBDOMAIN]]-30880-[[KATACODA_HOST]].environments.katacoda.com"}],
+      "uilayout": "terminal"
+    },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}

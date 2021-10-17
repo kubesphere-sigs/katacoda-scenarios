@@ -8,6 +8,10 @@
       {
         "title": "Install KubeSphere DevOps",
         "text": "step1.md"
+      },
+      {
+        "title": "Create Pipeline And run it using ks ",
+        "text": "step2.md"
       }
     ],
     "intro": {

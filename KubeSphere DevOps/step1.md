@@ -31,7 +31,7 @@ helm install openebs --namespace openebs openebs/openebs --wait
 ```
 kubectl create namespace kubesphere-devops-system 
 helm install ks-devops ks-devops/ks-devops -n kubesphere-devops-system \
---set image.pullPolicy=Always --set jenkins.ksAuth.enabled=true
+--set image.pullPolicy=Always --set jenkins.ksAuth.enabled=true --wait
 ```{{execute}}
 
 ## Install CLI ks via hd

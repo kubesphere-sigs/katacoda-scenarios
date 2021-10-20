@@ -29,7 +29,7 @@
   },
    "environment": {
       "showdashboard": true,
-      "dashboards": [{"name": "KubeSphere", "href": "https://[[HOST2_SUBDOMAIN]]-30880-[[KATACODA_HOST]].environments.katacoda.com"}],
+      "dashboards": [{"name": "Jenkins", "href": "https://[[HOST2_SUBDOMAIN]]-30180-[[KATACODA_HOST]].environments.katacoda.com"}],
       "uilayout": "terminal"
     },
   "backend": {

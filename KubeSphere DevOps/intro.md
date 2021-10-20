@@ -1,6 +1,6 @@
 <img src="assets/images/kubesphere-logo.png" alt="logo" width="600" height="auto"/>
 
-In this scenario you'll learn how to use KubeSphere DevOps to automate the deployment of your applications
+In this scenario you'll learn how to use KubeSphere DevOps to automate the deployment of your applications.
 
 KubeSphere DevOps integrates popular CI/CD tools, provides CI/CD Pipelines based on Jenkins, offers automation toolkits including Binary-to-Image (B2I) and Source-to-Image (S2I), and boosts continuous delivery across Kubernetes clusters.
 

@@ -44,7 +44,3 @@ mv hd /usr/bin/hd
 
 2.Install it via 
 `hd install kubesphere-sigs/ks`{{execute}}
-
-
-
-

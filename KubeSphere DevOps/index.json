@@ -1,0 +1,38 @@
+{
+  "title": "Using KubeSphere DevOps ",
+  "description": "Using KubeSphere DevOps to automate the deployment of your applications",
+  "difficulty": "beginner",
+  "time": "60",
+  "details": {
+    "steps": [
+      {
+        "title": "Install KubeSphere DevOps",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create Pipeline And run it using ks ",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "assets/foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+      "assets": {
+        "host01": [
+            {"file": "launch.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+        ]
+    }
+  },
+   "environment": {
+      "showdashboard": true,
+      "dashboards": [{"name": "Jenkins", "href": "https://[[HOST2_SUBDOMAIN]]-30180-[[KATACODA_HOST]].environments.katacoda.com"}],
+      "uilayout": "terminal"
+    },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}

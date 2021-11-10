@@ -1,4 +1,4 @@
-<img src="assets/images/kubesphere-logo.png" alt="logo" width="600" height="auto"/>
+<img src="https://raw.githubusercontent.com/kubesphere-sigs/katacoda-scenarios/master/assets/kubesphere-logo.png" alt="logo" width="600" height="auto"/>
 
 In this scenario you'll learn how to bootstrap  KubeSphere in an existing Kubernetes cluster
 

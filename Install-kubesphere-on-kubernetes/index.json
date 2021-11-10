@@ -1,6 +1,6 @@
 {
   "title": "Install KubeSphere on kubernetes",
-  "description": "Install KubeSphere on existing Kubernetes cluster using ks-installer ",
+  "description": "Install KubeSphere on existing Kubernetes cluster using ks-installer",
   "difficulty": "beginner",
   "time": "60",
   "details": {

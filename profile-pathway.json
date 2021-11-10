@@ -1,0 +1,14 @@
+{
+    "courses": [
+      {
+        "title": "Install KubeSphere on kubernetes",
+        "description": "Install KubeSphere on existing Kubernetes cluster using ks-installer",
+        "id": "Install-kubesphere-on-kubernetes"
+      },
+      {
+        "title": "Using KubeSphere DevOps",
+        "description": "Using KubeSphere DevOps to automate the deployment of your applications",
+        "id": "KubeSphere DevOps"
+      }
+    ]
+}
